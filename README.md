@@ -11,3 +11,5 @@
 - ssh-keygen -t rsa -b 4096 -C "your_email@example.com" 
 - cat ~/.ssh/id_rsa.pub
 - เอา ssh key ที่ได้ไปใส่ใน setting บน github
+# Clone git
+- ถ้าหาก clone Git มา แล้วใช้คำสั่ง yarn start ไม่ได้ ให้ทำการติดตั้ง npm โดยใช้คำสั่ง npm install
