@@ -13,6 +13,7 @@
 - เอา ssh key ที่ได้ไปใส่ใน setting บน github
 # Clone git
 - ถ้าหาก clone Git มา แล้วใช้คำสั่ง yarn start ไม่ได้ ให้ทำการติดตั้ง npm โดยใช้คำสั่ง npm install
+- ถ้าใช้คำสั่ง yarn start / npm start ไม่ได้ ให้ทำการ add react เข้าไปก่อนโดยคำสั่ง yarn add react-scripts
 # การ อัพขึ้น firebase
 - firebase login
 - firebase init
