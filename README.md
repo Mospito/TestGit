@@ -14,6 +14,14 @@
 # Clone git
 - ถ้าหาก clone Git มา แล้วใช้คำสั่ง yarn start ไม่ได้ ให้ทำการติดตั้ง npm โดยใช้คำสั่ง npm install
 - ถ้าใช้คำสั่ง yarn start / npm start ไม่ได้ ให้ทำการ add react เข้าไปก่อนโดยคำสั่ง yarn add react-scripts
+# Git push
+- ถ้ามี Err ขึ้นจากที่ใช้งาน Git push -u origin master ให้ลองใช้เป็น Git push -f origin master
+# การลบ Remote Origin
+- git remote romove origin หรือ git remote rm origin 
+# การดู remote ที่เชื่อมต่ออยู่
+- git remote -v 
+# การลบ User and Email 
+- git config --global --edit  แล้วกด insert แล้วกด Esc และพิมพ์ :wq แล้วกดปุ่ม Enter 
 # การ อัพขึ้น firebase
 - firebase login
 - firebase init
